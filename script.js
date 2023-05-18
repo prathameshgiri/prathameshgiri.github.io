@@ -25,25 +25,25 @@ darkmode.onclick = () => {
     document.body.classList.remove("active");
   }
 };
- const text = document.querySelector(".sec-text");
+const text = document.querySelector(".sec-text");
 
-        const textLoad = () => {
-           setTimeout(() => {
-                text.textContent = "Web Developer";
-            }, 0);
-            setTimeout(() => {
-                text.textContent = "Graphic Designer";
-            }, 4000);
-            setTimeout(() => {
-                text.textContent = "YouTuber";
-            }, 8000); //1s = 1000 milliseconds
-            setTimeout(() => {
-              text.textContent = "Bolgger";
-          }, 12000);
-          setTimeout(() => {
-            text.textContent = "JAVA Programmer";
-        }, 16000);
-        }
+const textLoad = () => {
+    setTimeout(() => {
+        text.textContent = "Web Developer";
+    }, 0);
+    setTimeout(() => {
+      text.textContent = "JAVA Programmer";
+  }, 4000);
+  setTimeout(() => {
+        text.textContent = "Graphic Designer";
+    }, 8000);
+    setTimeout(() => {
+        text.textContent = "Blogger";
+    }, 12000);
+    setTimeout(() => {
+        text.textContent = "YouTuber";
+    }, 16000); //1s = 1000 milliseconds
+}
 
-        textLoad();
-        setInterval(textLoad, 12000);
+textLoad();
+setInterval(textLoad, 20000);
