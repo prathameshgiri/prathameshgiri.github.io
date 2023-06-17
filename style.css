@@ -764,6 +764,7 @@ body {
   -ms-transform: translatey(-50%);
   -o-transform: translatey(-50%);
   transform: translatey(-50%);
+  height: 300px;
 }
 
 .testim .wrap {
