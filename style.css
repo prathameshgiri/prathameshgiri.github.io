@@ -576,7 +576,7 @@
 .contact-box {
   max-width: 500px;
   margin: 0 auto;
-  background-color: #f2f2f2;
+  background: var(--bg-color);
   padding: 20px;
   border-radius: 10px;
 }
@@ -708,7 +708,7 @@
   font-weight: 600;
 }
 .container .text.first-text{
-  color: #000000;
+  color: var(--text-color);
 }
 .text.sec-text:before{
   content: "";
@@ -717,7 +717,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #ffffff;
+  background: var(--bg-color);
   border-left: 2px solid #4070F4;
   animation: animate 4s steps(12) infinite;
 }
@@ -753,8 +753,9 @@ html {
 }
 body {
 
-  font-size: 16px;
-  font-family: Dubai-Light;
+  font-size: 15px;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
   
 }
 .testim {
@@ -764,7 +765,7 @@ body {
   -ms-transform: translatey(-50%);
   -o-transform: translatey(-50%);
   transform: translatey(-50%);
-  height: 420px;
+  height: 320px;
 }
 
 .testim .wrap {
@@ -778,7 +779,7 @@ body {
 .testim .arrow {
   display: block;
   position: absolute;
-  color: #000000;
+  color: var(--text-color);
   cursor: pointer;
   font-size: 2em;
   top: 50%;
@@ -830,7 +831,7 @@ body {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  border: 1px solid #000000;
+  border: 1px solid #40f4c7;
   margin: 0 10px;
   cursor: pointer;
   -webkit-transition: all .5s ease-in-out;    
@@ -896,7 +897,7 @@ body {
 
 .testim .cont div p {
   font-size: 1.15em;
-  color: #000000;
+  color: var(--text-color);
   width: 80%;
   margin: auto;
 }
