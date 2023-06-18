@@ -753,7 +753,7 @@ html {
 }
 body {
 
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
   font-family:'Times New Roman', Times, serif;
   
@@ -765,7 +765,7 @@ body {
   -ms-transform: translatey(-50%);
   -o-transform: translatey(-50%);
   transform: translatey(-50%);
-  height: 320px;
+  height: 360px;
 }
 
 .testim .wrap {
