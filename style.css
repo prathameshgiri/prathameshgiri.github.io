@@ -285,6 +285,14 @@
   width: 65%;
  }
 
+ .php-bar {
+  width: 54%;
+}
+
+.java-bar {
+  width: 38%;
+}
+
  .services-content {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
