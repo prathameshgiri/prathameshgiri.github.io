@@ -716,13 +716,13 @@ body
 }
 
 .container{
- width: 346px;
+ width: 246px;
  overflow: hidden;
 }
 .container .text{
  position: relative;
  color:  #003ca3;
- font-size: 20px;
+ font-size: 18px;
  font-weight: 700;
 }
 .container .text.first-text{
