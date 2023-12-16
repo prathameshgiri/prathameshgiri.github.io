@@ -143,12 +143,12 @@ header.shadow {
 
 .home-text h2 {
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .home-text p {
   font-size: var(--p-font);
-  font-weight: 400;
+  font-weight: 500;
   margin: 0.7rem 0 1rem;
 }
 
@@ -289,9 +289,19 @@ span {
  width: 54%;
 }
 
+.bj-bar {
+  width: 72%;
+ }
+
 .java-bar {
  width: 38%;
 }
+
+.py-bar {
+  width: 55%;
+ }
+
+
 
 .services-content {
   display: grid;
@@ -706,14 +716,14 @@ body
 }
 
 .container{
- width: 246px;
+ width: 346px;
  overflow: hidden;
 }
 .container .text{
  position: relative;
  color:  #003ca3;
  font-size: 20px;
- font-weight: 600;
+ font-weight: 700;
 }
 .container .text.first-text{
  color: var(--text-color);

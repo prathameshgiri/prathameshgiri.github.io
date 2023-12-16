@@ -35,14 +35,17 @@ const textLoad = () => {
       text.textContent = "JAVA Programmer";
   }, 4000);
   setTimeout(() => {
-        text.textContent = "Graphic Designer";
+        text.textContent = "Python Programmer";
     }, 8000);
     setTimeout(() => {
-        text.textContent = "Blogger";
+        text.textContent = "Graphic Designer";
     }, 12000);
     setTimeout(() => {
+        text.textContent = "Blogger";
+    }, 16000);
+    setTimeout(() => {
         text.textContent = "YouTuber";
-    }, 16000); //1s = 1000 milliseconds
+    }, 20000); //1s = 1000 milliseconds
 }
 
 textLoad();
