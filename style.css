@@ -195,7 +195,7 @@ header.shadow {
 
 .about-text p {
   font-size: var(--p-font);
-  font-weight: 300;
+  font-weight: 400;
   text-align: justify;
 }
 
