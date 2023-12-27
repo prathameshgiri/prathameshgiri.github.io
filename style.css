@@ -183,18 +183,19 @@ header.shadow {
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-  margin-top: 2rem;
+  gap: 2rem;
+  margin-top: 4rem;
 }
 
 .about-img img {
   width: 80%;
   border-radius: 0.5rem;
+  
 }
 
 .about-text p {
   font-size: var(--p-font);
-  font-weight: 400;
+  font-weight: 300;
   text-align: justify;
 }
 
@@ -209,11 +210,11 @@ header.shadow {
 }
 
 .information .info-box .bx {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .information .info-box span {
-  font-weight: 400;
+  font-weight:bold;
   margin-left: 1rem;
 }
 
