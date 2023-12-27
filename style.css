@@ -190,7 +190,6 @@ header.shadow {
 .about-img img {
   width: 80%;
   border-radius: 0.5rem;
-  
 }
 
 .about-text p {
@@ -214,7 +213,7 @@ header.shadow {
 }
 
 .information .info-box span {
-  font-weight:bold;
+  font-weight: 400;
   margin-left: 1rem;
 }
 
