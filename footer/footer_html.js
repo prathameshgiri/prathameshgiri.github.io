@@ -28,7 +28,7 @@ document.write(`
           <h4 class="footer_col_heading">Team</h4>
           <ul class="footer_col_list_parent">
           <li class="footer_col_lists"><a class="footer_col_links" href="https://prathameshgiri.github.io/portfolio/">Prathamesh Giri</a></li>
-          <li class="footer_col_lists"><a class="footer_col_links" href="https://alokbirge12.github.io/portfolio/">Alok Birge</a></li>
+          <li class="footer_col_lists"><a class="footer_col_links" href="https://alokbirge12.github.io/">Alok Birge</a></li>
           <li class="footer_col_lists"><a class="footer_col_links" href="#">Sushant Biradar</a></li>
           <li class="footer_col_lists"><a class="footer_col_links" href="#">Rahul Dadge</a></li>
           <li class="footer_col_lists"><a class="footer_col_links" href="#">Adarsh Bondge</a></li>
