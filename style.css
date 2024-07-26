@@ -293,12 +293,28 @@ span {
   width: 72%;
  }
 
+ .w-bar {
+  width: 75%;
+ }
+
 .java-bar {
  width: 38%;
 }
 
 .py-bar {
   width: 55%;
+ }
+
+ .k-bar {
+  width: 65%;
+ }
+
+ .at-bar {
+  width: 55%;
+ }
+
+ .md-bar {
+  width: 50%;
  }
 
 
