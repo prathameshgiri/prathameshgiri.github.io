@@ -17,7 +17,7 @@ document.write(`
           <ul class="footer_col_list_parent">
             <li class="footer_col_lists"><a class="footer_col_links" href="https://prathameshsgiri.github.io">Website</a></li>
             <li class="footer_col_lists"><a class="footer_col_links" href="https://prathameshgiri.github.io/gallery/">Image Gallery</a></li>
-            <li class="footer_col_lists"><a class="footer_col_links" href="#">Work</a></li>
+            <li class="footer_col_lists"><a class="footer_col_links" href="https://github.com/prathameshgiri">Projects</a></li>
             <li class="footer_col_lists"><a class="footer_col_links" href="#">Personal Info</a></li>
             <li class="footer_col_lists"><a class="footer_col_links" href="#">Up-comming</a></li>
             

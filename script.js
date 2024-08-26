@@ -32,16 +32,16 @@ const textLoad = () => {
         text.textContent = "Web Developer";
     }, 0);
     setTimeout(() => {
-      text.textContent = "JAVA Programmer";
+      text.textContent = "App Developer";
   }, 4000);
   setTimeout(() => {
         text.textContent = "Python Programmer";
     }, 8000);
     setTimeout(() => {
-        text.textContent = "Graphic Designer";
+        text.textContent = "Kotlin Programmer";
     }, 12000);
     setTimeout(() => {
-        text.textContent = "Blogger";
+        text.textContent = "JAVA Programmer";
     }, 16000);
     setTimeout(() => {
         text.textContent = "YouTuber";
