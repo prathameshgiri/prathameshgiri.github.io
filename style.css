@@ -274,12 +274,17 @@ span {
   width: 84%;
 }
 
+
 .js-bar {
   width: 74%;
 }
 
 .react-bar {
   width: 70%;
+}
+
+.cs-bar {
+  width: 55;
 }
 
 .rea-bar {
@@ -294,7 +299,7 @@ span {
   width: 72%;
  }
 
- .w-bar {
+.w-bar {
   width: 75%;
  }
 
@@ -306,17 +311,19 @@ span {
   width: 55%;
  }
 
- .k-bar {
+.k-bar {
   width: 65%;
  }
 
- .at-bar {
+.at-bar {
   width: 55%;
  }
 
- .md-bar {
+.md-bar {
   width: 50%;
  }
+
+ 
 
 
 
@@ -349,8 +356,18 @@ span {
   font-weight: 600;
   margin: 0.7rem 0 0.4rem;
 }
+.services-box h1 {
+  font-size: 0.6rem;
+  font-weight: 600;
+  margin: 0.7rem 0 0.4rem;
+  
+}
 
 .services-box:hover h3 {
+  color: #fff;
+}
+
+.services-box:hover h1 {
   color: #fff;
 }
 
