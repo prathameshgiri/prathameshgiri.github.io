@@ -220,7 +220,6 @@ header.shadow {
 
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2rem;
   margin-top: 4rem;
@@ -331,7 +330,7 @@ span {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   justify-content: center;
-  gap: 1rem;
+  gap: 3rem;
   margin-top: 2rem;
 }
 
