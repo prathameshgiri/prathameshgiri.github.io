@@ -121,8 +121,19 @@ header.shadow {
   display: grid;
   grid-template-columns: 0.2fr 1fr 1fr;
   align-items: center;
-  gap: 1rem;
+  gap: 4rem;
 }
+
+#i12 {
+      width: 90%;
+      max-width: 300px;
+      height: auto;
+      border: 4px solid #9a2d2d;
+      border-style:outset;
+      padding: 3px;
+      border-radius: 10px;
+      box-shadow: 2px 4px 12px rgba(0,0,0,0.15);
+    }
 
 .home-img {
   order: 3;
@@ -218,18 +229,143 @@ header.shadow {
   margin-left: 1rem;
 }
 
+
+
+
+/* Base animation for all progress bars */
+.percent-bar {
+  animation: fillBar 2s ease-out forwards;
+}
+
+@keyframes fillBar {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: var(--bar-width);
+  }
+}
+
+/* Colorful gradient effects */
+.react-bar {
+  --bar-width: 70%;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+}
+
+.rea-bar {
+  --bar-width: 65%;
+  background: linear-gradient(90deg, #36d1dc, #5b86e5);
+}
+
+.py-bar {
+  --bar-width: 55%;
+  background: linear-gradient(90deg, #ffe000, #799f0c);
+}
+
+.html-bar {
+  --bar-width: 85%;
+  background: linear-gradient(90deg, #f953c6, #b91d73);
+}
+
+.css-bar {
+  --bar-width: 84%;
+  background: linear-gradient(90deg, #00c9ff, #92fe9d);
+}
+
+.js-bar {
+  --bar-width: 74%;
+  background: linear-gradient(90deg, #f7971e, #ffd200);
+}
+
+.php-bar {
+  --bar-width: 54%;
+  background: linear-gradient(90deg, #a18cd1, #fbc2eb);
+}
+
+.bj-bar {
+  --bar-width: 72%;
+  background: linear-gradient(90deg, #4facfe, #00f2fe);
+}
+
+.w-bar {
+  --bar-width: 75%;
+  background: linear-gradient(90deg, #43e97b, #38f9d7);
+}
+
+.java-bar {
+  --bar-width: 38%;
+  background: linear-gradient(90deg, #e96443, #904e95);
+}
+
+.k-bar {
+  --bar-width: 65%;
+  background: linear-gradient(90deg, #00f260, #0575e6);
+}
+
+.at-bar {
+  --bar-width: 55%;
+  background: linear-gradient(90deg, #3a1c71, #d76d77, #ffaf7b);
+}
+
+.md-bar {
+  --bar-width: 50%;
+  background: linear-gradient(90deg, #ff512f, #dd2476);
+}
+
+/* Responsive adjustments */
+/* Responsive layout for skill bars */
+.bars {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .bars {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    width: 900px;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 5rem;
+  }
+
+  .bars-box {
+    width: 95%;
+  }
+
+  .skills-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 2rem;
+  }
+
+  .bars-box h3,
+  .bars-box span {
+    font-size: 1.1rem;
+  }
+
+  .percent-bar,
+  .light-bar {
+    height: 0.5rem;
+  }
+}
+
+
 .skills-container {
   display: grid;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   margin-top: 4rem;
 }
 
-.skills-img img {
-  width: 80%;
-  padding-left: 4rem;
-  object-position: center;
-}
+
 
 .bars-box {
   position: relative;
@@ -252,7 +388,7 @@ span {
   left: 0;
   width: 100%;
   height: 0.5rem;
-  background: hsla(260, 100%, 44%, 0.4);
+  background: hsla(0, 0%, 0%, 0.4);
   border-radius: 0.5rem;
 }
 
@@ -261,66 +397,10 @@ span {
   bottom: 0;
   left: 0;
   height: 0.5rem;
-  background: var(--main-color);
+  
   border-radius: 0.5rem;
 }
 
-.html-bar {
-  width: 85%;
-}
-
-.css-bar {
-  width: 84%;
-}
-
-
-.js-bar {
-  width: 74%;
-}
-
-.react-bar {
-  width: 70%;
-}
-
-.cs-bar {
-  width: 55;
-}
-
-.rea-bar {
- width: 65%;
-}
-
-.php-bar {
- width: 54%;
-}
-
-.bj-bar {
-  width: 72%;
- }
-
-.w-bar {
-  width: 75%;
- }
-
-.java-bar {
- width: 38%;
-}
-
-.py-bar {
-  width: 55%;
- }
-
-.k-bar {
-  width: 65%;
- }
-
-.at-bar {
-  width: 55%;
- }
-
-.md-bar {
-  width: 50%;
- }
 
  
 
