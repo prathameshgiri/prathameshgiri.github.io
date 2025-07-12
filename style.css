@@ -234,7 +234,7 @@ header.shadow {
 
 /* Base animation for all progress bars */
 .percent-bar {
-  animation: fillBar 2s ease-out forwards;
+  animation: fillBar 6s ease-out forwards;
 }
 
 @keyframes fillBar {
