@@ -584,22 +584,79 @@
         </div>
         <br><br>
         <div class="contact-box">
-            <form action="https://formspree.io/f/manbwqwk" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="" name="name" required>
+    <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required>
 
-                <label for="ph.no">Ph.No:</label>
-                <input type="number" id="" name="ph.no" required>
+        <label for="ph.no">Ph.No:</label>
+        <input type="number" name="ph.no" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="" name="email" required>
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
 
-                <label for="message">Message:</label>
-                <textarea id="" name="message" required></textarea>
-                <button type="submit">Send</button>
-                
-            </form>
-        </div>
+        <label for="message">Message:</label>
+        <textarea name="message" required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+
+    <!-- Toast Notification -->
+    <div id="toast" style="
+      visibility: hidden;
+      min-width: 280px;
+      background-color: #4CAF50;
+      color: #fff;
+      text-align: center;
+      border-radius: 8px;
+      padding: 16px;
+      position: fixed;
+      z-index: 1000;
+      left: 50%;
+      bottom: 30px;
+      transform: translateX(-50%);
+      font-family: sans-serif;
+    ">
+      Thank you for submitting the form!
+    </div>
+</div>
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Stop default redirect
+
+    const form = event.target;
+    const formData = new FormData(form);
+    const userName = formData.get("name"); // Get the entered name
+
+    fetch("https://formspree.io/f/manbwqwk", {
+        method: "POST",
+        body: formData,
+        headers: {
+            'Accept': 'application/json'
+        }
+    })
+    .then(response => {
+        if (response.ok) {
+            form.reset();
+            showToast(`Thank You, ${userName}!\nWe’ll connect with you shortly`);
+        } else {
+            showToast("Error: Form not submitted.");
+        }
+    })
+    .catch(error => {
+        showToast("Network error. Try again.");
+    });
+});
+
+function showToast(message) {
+    const toast = document.getElementById("toast");
+    toast.textContent = message;
+    toast.style.visibility = "visible";
+    setTimeout(() => {
+        toast.style.visibility = "hidden";
+    }, 5000);
+}
+</script>
 
         
     </section>
