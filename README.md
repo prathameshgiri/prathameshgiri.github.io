@@ -1,6 +1,6 @@
 🌟 Check out my portfolio and code contributions below! I'm always open to feedback and eager to learn from developers.
 
-https://prathameshgiri.github.io
+https://pro.prathameshgiri.in/
 
 👋 Hello! I'm Prathamesh Giri, a passionate web developer 💻
 
